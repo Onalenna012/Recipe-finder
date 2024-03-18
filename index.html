@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Finder</title>
+     <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="categories.html">Category</a></li>
+              <li><a href="listing.html">Listing</a></li>
+              <li><a href="Recommended_Diets.html">Recommended Diets</a></li> 
+              <li><div class="main-white-button"><a href="#"><i class="fa fa-plus"></i> Add Your Listing</a></div></li> 
+            </ul>        
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  <lord-icon
+      src="https://cdn.lordicon.com/guothkao.json"
+      trigger="hover"
+      style="width:250px;height:250px">
+  </lord-icon>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Goody Eats</h1>
+        <h3>Recipe Finder</h3>
+        <form>
+            <input type="text" id="search" placeholder="Enter ingredients">
+            <button type="button" id="submit" class="btn">Search</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
